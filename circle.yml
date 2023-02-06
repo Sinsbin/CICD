@@ -1,0 +1,9 @@
+# circle.yml
+machine:
+  node:
+    version: 16.17
+    
+
+test:
+  override:
+    - ./node_modules/.bin/mocha
